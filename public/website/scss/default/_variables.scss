@@ -1,0 +1,166 @@
+/*-- Variables --*/
+:root {
+    //Primary colors
+    --color-primary: #1f244c;
+    --color-primary-900: #2c387c;
+    --color-primary-800: #313e9c;
+    --color-primary-700: #354abf;
+    --color-primary-600: #3f5dd1;
+    --color-primary-500: #5379de;
+    --color-primary-400: #749ae6;
+    --color-primary-300: #a1bdef;
+    --color-primary-200: #c7d7f6;
+    --color-primary-100: #e0e8f9;
+    --color-primary-50: #f1f5fd;
+    
+    //Secondary colors
+    --color-secondary: #042f15;
+    --color-secondary-900: #12552c;
+    --color-secondary-800: #136831;
+    --color-secondary-700: #11843a;
+    --color-secondary-600: #16A34B;
+    --color-secondary-500: #1ccb58;
+    --color-secondary-400: #65e892;
+    --color-secondary-300: #82f3a9;
+    --color-secondary-200: #b9f9ce;
+    --color-secondary-100: #dbfde6;
+    --color-secondary-50: #f0fdf4;
+
+    //Tertiary colors
+    --color-dark: #212529;
+    --color-dark-900: #373d42;
+    --color-dark-800: #3e454c;
+    --color-dark-700: #465058;
+    --color-dark-600: #515f69;
+    --color-dark-500: #5f717b;
+    --color-dark-400: #7a8c96;
+    --color-dark-300: #a6b4ba;
+    --color-dark-200: #cbd3d6;
+    --color-dark-100: #e3e7ea;
+    --color-dark-50: #f4f6f7;
+    
+    // Typo Color 
+    --color-heading: #101223;
+    --color-body: #404252;
+    --color-border: #F3F7FF;
+
+
+    --color-bg-one: #F5F5F5;
+    --color-bg-two: #F3F7FF;
+    --color-desc: #888888;
+    --color-desc-2: rgba(239, 237, 253, 0.70);
+    --color-desc-3: #8D99AF;
+
+    --color-black: #000000;
+    --color-black-off: rgba(0,0,0,0.2);
+    --color-blacker: #09061C;
+    --color-blackest: #0f0f11;
+
+
+
+
+
+
+
+    // Gery Colors 
+    --color-gray: #100E1D;
+    --color-midgray: #656565;
+
+    --color-white: #ffffff;
+    --color-white-off: rgba(255,255,255,0.1);
+    
+
+
+    // Notify Colors 
+    --color-success: #3EB75E;
+    --color-danger: #FF0003;
+    --color-warning: #FF8F3C;
+    --color-info: #1BA2DB;
+
+
+    //Social icon colors
+    --color-facebook: #3B5997;
+    --color-twitter: #1BA1F2;
+    --color-youtube: #ED4141;
+    --color-linkedin: #0077B5;
+    --color-pinterest: #E60022;
+    --color-instagram: #C231A1;
+    --color-vimeo: #00ADEF;
+    --color-twitch: #6441A3;
+    --color-discord: #7289da;
+
+
+    //Border-radius
+    --border-width: 2px;
+    --radius-small: 6px;
+    --radius: 10px;
+    --radius-big: 16px;
+
+   
+
+    //Font weight
+    //primary font
+    --p-light: 300;
+    --p-regular: 400;
+    --p-medium: 500;
+    --p-semi-bold: 600;
+    --p-bold: 700;
+    --p-extra-bold: 800;
+    --p-black: 900;
+
+
+    //Shadows
+    --shadow-primary: 0 0 20px 5px rgba(63, 93, 209, 0.2);
+    --shadow-light: 1px 1px 6px rgba(0,0,0,0.25);
+    --shadow-lighter: 4px 4px 20px 20px rgba(0,0,0,0.01);
+
+
+    //transition easing
+    --transition: 0.3s;
+    --transition-transform: transform .65s cubic-bezier(.23,1,.32,1);
+
+    //Font Family
+    --font-primary: "DM Sans", sans-serif;
+
+
+    
+    //Fonts Size
+    --font-size-b1: 18px;
+    --font-size-b2: 16px;
+    --font-size-b3: 14px;
+    --font-size-b4: 12px;
+
+    //Line Height
+    --line-height-b1: 1.67; //28px
+    --line-height-b2: 1.7; //24px
+    --line-height-b3: 1.6; //22px
+    --line-height-b4: 1.3; //16px
+
+    // Heading Font 
+    --h1: 52px; //64px 1.29
+    --h2: 48px; //54px 
+    --h3: 40px; //44px 1.23
+    --h4: 32px; // 34px 1.14
+    --h5: 24px; //28px  1.25
+    --h6: 20px; //22px 1.24
+
+    // Description Font 
+    --p-lg: 24px; //24px
+    --p-md: 18px; //18px 
+    --p-sm: 16px; //16px 
+}
+
+// Layouts Variation
+$smlg-device: 'only screen and (max-width: 1199px)';
+$extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
+$laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$lg-screen: 'only screen and (min-width: 992px)';
+$xl-layout: 'only screen and (min-width: 1400px) ';
+$md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
+$md-screen:'only screen and (min-width: 768px)';
+$ssm-layout:'only screen and (max-width: 991px)';
+$sm-layout:'only screen and (max-width: 767px)';
+$large-mobile: 'only screen and (max-width: 575px)';
+$small-mobile: 'only screen and (max-width: 479px)';
+

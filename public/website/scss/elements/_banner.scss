@@ -1,0 +1,67 @@
+.banner-style-1 {
+    padding: 160px 0;
+    position: relative;
+    @media #{$sm-layout} {
+        width: 100%;
+        padding: 112px 0;
+    }
+    .banner-content {
+        .title {
+            color: var(--color-heading);
+            font-weight: var(--p-bold);
+            letter-spacing: -2px;
+            text-align: left;
+            margin-bottom: 30px;
+            @media #{$md-layout} {
+                line-height: 60px;
+                font-size: 50px;
+            }
+
+            @media #{$lg-layout} {
+                line-height: 60px;
+                font-size: 45px;
+            }
+
+            @media #{$sm-layout} {
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+        }
+        .description {
+            color: var(--color-body);
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            line-height: 24px;
+            text-align: left;
+            margin-bottom: 48px;
+            @media #{$sm-layout} {
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+        }
+
+    }
+    &::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/banner/banner-bg-01.png);
+        z-index: -1;
+
+    }
+    .banner-btn{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        @media #{$sm-layout} {
+            justify-content: center;
+        }
+    }
+}

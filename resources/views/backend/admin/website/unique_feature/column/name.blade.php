@@ -1,0 +1,3 @@
+<div>
+    {{ $client->name }}
+</div>

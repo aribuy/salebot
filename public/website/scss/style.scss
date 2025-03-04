@@ -1,0 +1,72 @@
+/**************************************
+ CSS Index  
+****************************
+
+/--- Default Styles -----/
+
+01.Variables
+02.Mixins
+03.Reset
+04.Typography
+05.Extend
+06.Animations
+07.Shortcode
+08.Spacing
+09.Common
+10.Forms
+11.Sal
+12.Text Animation
+
+/--- Header Styles -----/
+
+01.Headerdefault
+02.Nav
+03.Header Top
+04.HeaderTopBar
+05.Mobilemenu
+
+
+
+***************************************/
+
+
+
+/**************************************
+    Default Styles
+***************************************/
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/extend';
+@import 'default/animations';
+@import 'default/shortcode';
+@import 'default/spacing';
+@import 'default/common';
+@import 'default/forms';
+@import 'default/sal';
+@import 'default/text-animation';
+
+
+
+/**************************************
+    Header Styles
+***************************************/
+@import 'header/headerdefault';
+@import 'header/nav';
+@import 'header/mobilemenu';
+
+
+
+/**************************************
+    Elements Styles
+***************************************/
+@import 'elements/button';
+@import 'elements/banner';
+@import 'elements/section-title';
+@import 'elements/template';
+@import 'elements/counter';
+@import 'elements/brand';
+@import 'elements/service';
+@import 'elements/accordion';
+@import 'elements/footer';

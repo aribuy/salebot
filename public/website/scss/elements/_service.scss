@@ -1,0 +1,20 @@
+.card-box{
+    height: 100%;
+    position: relative;
+    &.card-style-1{
+        padding: 32px;
+        height: 100%;
+        position: relative;
+        border: 1px solid #DEE2E6;
+        border-radius: 8px;
+        @media #{$sm-layout,$lg-layout,$md-layout} {
+           padding: 16px;
+        }
+        .content{
+            margin-top: 32px;
+            .description{
+                font-weight: 500;
+            }
+        }
+    }
+}

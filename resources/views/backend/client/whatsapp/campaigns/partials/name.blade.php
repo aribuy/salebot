@@ -1,0 +1,1 @@
+{{ @$query->campaign_name }}

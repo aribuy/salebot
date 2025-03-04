@@ -1,0 +1,117 @@
+.dreamd-accordion-style {
+    .card {
+        background: var(--color-lessdark);
+        border: 0;
+        border-radius: var(--radius) !important;
+
+        .card-header {
+            background-color: transparent;
+            border-bottom: 0 none;
+            box-shadow: none;
+            padding: 20px 30px;
+            margin-bottom: 0;
+
+            button {
+                color: var(--color-heading);
+                font-size: 20px;
+                font-weight: var(--p-bold);
+                line-height: 27px;
+                outline: none;
+                text-decoration: none;
+                box-shadow: none;
+                width: 100%;
+                text-align: left;
+                padding: 30px;
+                background: transparent;
+                position: relative;
+
+                @media #{$sm-layout} {
+                    font-size: 16px;
+                }
+
+                &::before {
+                    position: absolute;
+                    font-family: var(--fa-style-family, "Font Awesome 6 Pro");
+                    font-weight: 900;
+                    content: "\f077";
+                    right: 40px;
+                    top: 50%;
+                    height: 48px;
+                    width: 48px;
+                    background: var(--color-primary);
+                    color: var(--color-white);
+                    font-size: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    transform: translateY(-50%);
+                    transition: 0.4s;
+
+                    @media #{$sm-layout} {
+                        height: 35px;
+                        width: 35px;
+                        font-size: 13px;
+                        right: -5%;
+                    }
+
+                    @media #{$large-mobile} {
+                        height: 30px;
+                        width: 30px;
+                        font-size: 12px;
+                    }
+                }
+
+                &.collapsed {
+                    &::before {
+                        content: "\f078";
+                        background: #0D0A1D;
+                    }
+                }
+            }
+        }
+
+        .card-body {
+            padding: 16px;
+            padding-top: 0;
+            font-size: var(--font-size-b2);
+            line-height: var(--line-height-b2);
+            font-weight: var(--p-regular);
+            color: var(--color-desc-3);
+            padding: 30px 20px;
+            border-top: 1px solid var(--color-border);
+        }
+
+        &+.card {
+            margin-top: 24px;
+        }
+    }
+
+    &.dreamd-accordion-02 {
+        margin-bottom: 40px;
+
+        .card {
+            background: transparent;
+            border-radius: 12px !important;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+
+
+            .card-header {
+                padding: 0;
+
+                .accordion-button {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+
+            .card-body {
+                padding: 0 40px 40px 40px;
+                max-width: 85%;
+            }
+        }
+    }
+
+
+}

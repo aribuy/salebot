@@ -1,0 +1,66 @@
+.cns-select-location-area {
+
+    .select-location-area {
+        position: relative;
+
+        select {
+            background-color: var(--color-gray);
+            border: 1px solid var(--color-midgray);
+            color: var(--color-white);
+            font-size: 16px;
+            font-weight: var(--p-medium);
+            line-height: 26px;
+            position: relative;
+        }
+
+    }
+
+    form {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            font-family: var(--fa-style-family, "Font Awesome 6 Pro");
+            font-weight: 900;
+            content: "\f078";
+            top: 26%;
+            right: 4%;
+            color: #656565;
+        }
+
+
+    }
+}
+
+.cns-secret-location {
+    .title {
+        font-weight: var(--p-bold);
+        margin-bottom: 12px;
+    }
+
+    .location-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            margin: 15px 0 30px 0;
+            font-size: 18px;
+            color: var(--color-desc);
+
+            @media #{$sm-layout} {
+                font-size: 14px;
+            }
+
+            a {
+                color: var(--color-desc);
+                transition: all 0.2s ease-in;
+
+                &:hover {
+                    transition: all 0.2s ease-in;
+                    color: var(--color-primary);
+                }
+            }
+        }
+    }
+}

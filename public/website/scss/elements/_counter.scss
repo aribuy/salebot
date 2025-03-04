@@ -1,0 +1,59 @@
+.cns-counter-up-area {
+    position: relative;
+    z-index: 9;
+
+    .counterup {
+
+        &__body {
+            display: grid;
+            gap: 80px;
+            grid-template-columns: repeat(4, 1fr);
+            align-items: center;
+
+
+            @media #{$sm-layout} {
+                gap: 40px;
+            }
+
+            @media #{$laptop-device} {
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            @media #{$smlg-device} {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @media #{$large-mobile} {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+        }
+
+        &.no-separator {
+
+            @media #{$smlg-device} {
+                border-right: 1px solid transparent;
+            }
+        }
+
+
+        .title {
+            color: var(--color-white);
+            font-size: 56px;
+            font-weight: var(--p-bold);
+            line-height: 66px;
+            letter-spacing: -2px;
+            padding-bottom: 12px;
+            margin-bottom: 0;
+        }
+
+        .description {
+            color: var(--color-white);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            margin: 0;
+            // padding: 0 30px 30px 0;
+        }
+    }
+}

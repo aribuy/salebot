@@ -1,0 +1,67 @@
+.element-dragable {
+    width: 14rem;
+    border-radius: 1rem;
+    border: 3px rgb(58, 140, 199) solid;
+    cursor: pointer;
+}
+
+.element-dragable:hover {
+    border-color: green;
+}
+
+.element-dragable:active {
+    border-color: red;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 3px white solid;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.25rem;
+    padding: 3px;
+}
+
+.text-header {
+    font-size: x-small;
+    color: #7e8c9e;
+    height: 8px;
+    margin-bottom: 4px;
+}
+
+.element-dragable {
+    width: 14rem;
+    border-radius: 1rem;
+    border: 3px rgb(58, 140, 199) solid;
+    cursor: pointer;
+}
+
+.element-dragable:hover {
+    border-color: green;
+}
+
+.element-dragable:active {
+    border-color: red;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 3px white solid;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.25rem;
+    padding: 3px;
+}
+
+.text-header {
+    font-size: x-small;
+    color: #7e8c9e;
+    height: 8px;
+    margin-bottom: 4px;
+}
